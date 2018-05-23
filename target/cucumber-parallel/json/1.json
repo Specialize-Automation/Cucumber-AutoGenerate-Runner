@@ -1,0 +1,164 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: aditya.qa14@gmail.com"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Adding Two Numbers",
+        "description": "",
+        "id": "adding-numbers;adding-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 308520312,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter the first number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_first_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1553925,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the second number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_second_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172430,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User add this two number",
+            "match": {
+              "location": "AddNumberStepDef.user_add_this_two_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1733540,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Print the sum",
+            "match": {
+              "location": "AddNumberStepDef.print_the_sum()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@AddTwo"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Adding Three Numbers",
+        "description": "",
+        "id": "adding-numbers;adding-three-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 970946,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter the first number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_first_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1059728,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter the second number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_second_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 942208,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter the third number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_third_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121112,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User add this three number",
+            "match": {
+              "location": "AddNumberStepDef.user_add_this_three_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 762081,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Print the sum",
+            "match": {
+              "location": "AddNumberStepDef.print_the_sum()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@AddThree"
+          }
+        ]
+      }
+    ],
+    "name": "Adding numbers",
+    "description": "",
+    "id": "adding-numbers",
+    "keyword": "Feature",
+    "uri": "E:/Eclipse_selenium/AutoRunner_Cucumber/src/test/resources/features/AddNumber.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@AddNumbers"
+      }
+    ]
+  }
+]

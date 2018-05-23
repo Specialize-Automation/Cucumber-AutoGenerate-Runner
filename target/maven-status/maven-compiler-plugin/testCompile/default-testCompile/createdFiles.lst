@@ -1,0 +1,4 @@
+Parallel02IT.class
+stepDefinition\AddNumberStepDef.class
+stepDefinition\MultiplyNumberStepDef.class
+Parallel01IT.class

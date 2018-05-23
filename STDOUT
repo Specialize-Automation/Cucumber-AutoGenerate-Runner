@@ -1,0 +1,18 @@
+#Author: aditya.qa14@gmail.com
+@MultiplyNumbers
+Feature: Adding numbers
+
+  @MultiplyTwo
+  Scenario: Adding Two Numbers         # E:/Eclipse_selenium/AutoRunner_Cucumber/src/test/resources/features/MultiplyNumbers.feature:6
+    When User enter the first number   # MultiplyNumberStepDef.user_enter_the_first_number()
+    And User enter the second number   # MultiplyNumberStepDef.user_enter_the_second_number()
+    Then User multiply this two number # MultiplyNumberStepDef.user_multiply_this_two_number()
+    And Print the multiplication       # MultiplyNumberStepDef.print_the_mulitply()
+
+  @MultiplyThree
+  Scenario: Adding Three Numbers         # E:/Eclipse_selenium/AutoRunner_Cucumber/src/test/resources/features/MultiplyNumbers.feature:13
+    When User enter the first number     # MultiplyNumberStepDef.user_enter_the_first_number()
+    And User enter the second number     # MultiplyNumberStepDef.user_enter_the_second_number()
+    And User enter the third number      # MultiplyNumberStepDef.user_enter_the_third_number()
+    Then User multiply this three number # MultiplyNumberStepDef.user_multiply_this_three_number()
+    And Print the multiplication         # MultiplyNumberStepDef.print_the_mulitply()
